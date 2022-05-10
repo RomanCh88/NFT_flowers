@@ -1,0 +1,11 @@
+{
+  "name": "uaflowers_nft_server",
+  "version": "0.0.1",
+  "description": "Generator of NFT Flowers depending on the amount donated to Ukraine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roman C.",
+  "license": "UNLICENSED"
+}
