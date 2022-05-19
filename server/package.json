@@ -1,11 +1,31 @@
 {
-  "name": "uaflowers_nft_server",
-  "version": "0.0.1",
-  "description": "Generator of NFT Flowers depending on the amount donated to Ukraine",
+  "name": "nft-flowers",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
-  "author": "Roman C.",
-  "license": "UNLICENSED"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "celebrate": "^12.1.1",
+    "colour": "^0.7.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "envalid": "^6.0.2",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.12.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nanit": "^0.3.1",
+    "path": "^0.12.7",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "author": "",
+  "license": "ISC"
 }
